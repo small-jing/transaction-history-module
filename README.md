@@ -1,50 +1,31 @@
-# Welcome to your Expo app 👋
+# Frontend Engineer Assessment - Chan Xiao Jing
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+- 3 years of experience in frontend web development.
+- Proficient in Vue.js, TypeScript, and Tailwind CSS.
+- This is my first experience developing a React Native app! 😁
+- Kindly reach out to me at xiaojingexol99@gmail.com or 60167851855 if you want to leave comments or suggestions to my assessment.
+- Thank you for reviewing my work!
 
 ## Get started
 
-1. Install dependencies
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+
+I used Expo Go to test the app on my iOS device.
+
+1. Checkout from `master` branch.
+
+2. Install dependencies.
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Start the app.
 
    ```bash
-    npx expo start
+    npx expo start --port 8088 --tunnel
    ```
 
-In the output, you'll find options to open the app in a
+4. Open the Expo Go app on your iOS device, click on the project named `transaction-history-module`, and you will be seeing the app after few seconds.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+5. I have completed all the requirements, but I apologize for not being able to implement the biometric authentication login due to time constraints. 😢 I used the `react-native-biometrics` library with the intention of authenticating via Face ID. If you'd like to review my progress, the incomplete work is available in the `Feat/biometric-login` branch.
