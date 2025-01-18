@@ -6,15 +6,22 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { Text, Image, StyleSheet, View } from "react-native";
 import ParallaxScrollView from "@/components/ParallaxScrollView";
 import ViewTransactionButton from "@/components/ViewTransactionButton";
+import { useAuth } from "@/auth/AuthContext";
+import { router } from "expo-router";
 
 const windowWidth = Dimensions.get("window").width;
 const windowHeight = Dimensions.get("window").height;
 
-export default function HomeScreen() {
+const HomeScreen = () => {
   const [visible, setVisible] = useState(false);
+  const { isAuthenticated, login } = useAuth();
 
   const handleVisibility = () => {
-    setVisible(!visible);
+    if (!isAuthenticated) {
+      router.push("/login");
+    } else {
+      setVisible(!visible);
+    }
   };
 
   return (
@@ -59,7 +66,9 @@ export default function HomeScreen() {
       </View>
     </ParallaxScrollView>
   );
-}
+};
+
+export default HomeScreen;
 
 const styles = StyleSheet.create({
   gradient: {

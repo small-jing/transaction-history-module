@@ -1,13 +1,20 @@
 import { router } from "expo-router";
+import { useAuth } from "@/auth/AuthContext";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 
 const ViewTransactionButton = () => {
+  const { isAuthenticated, login } = useAuth();
+
+  const goToTransactions = () => {
+    if (!isAuthenticated) {
+      router.push("/login");
+    } else {
+      router.push("/transactions");
+    }
+  };
   return (
-    <TouchableOpacity
-      onPress={() => router.push("/transactions")}
-      style={styles.container}
-    >
+    <TouchableOpacity onPress={goToTransactions} style={styles.container}>
       <View style={styles.iconContainer}>
         <MaterialCommunityIcons name="card-text" size={24} color="white" />
       </View>
