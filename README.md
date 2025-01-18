@@ -12,7 +12,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 I used Expo Go to test the app on my iOS device.
 
-1. Checkout from `master` branch.
+1. Checkout from `main` branch.
 
 2. Install dependencies.
 
