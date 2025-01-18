@@ -1,0 +1,218 @@
+[
+  {
+    "date": "2025-01-17",
+    "transactions": [
+      {
+        "amount": 300.12,
+        "type": "CREDIT",
+        "transactionId": "12345a3c-cb21-2d0f-a1c4-b91cc516ea2f",
+        "transactionDateTime": "2025-01-17T10:30:00Z",
+        "description": "Salary Payment",
+        "status": "SUCCESSFUL",
+        "transactionName": "Monthly Salary"
+      }
+    ]
+  },
+  {
+    "date": "2025-01-16",
+    "transactions": [
+      {
+        "amount": 150.75,
+        "type": "DEBIT",
+        "transactionId": "67890b4d-df32-4e1f-a2d5-c62dd517fb3g",
+        "transactionDateTime": "2025-01-16T15:45:00Z",
+        "description": "Payment to AEON BIG",
+        "status": "PENDING",
+        "transactionName": "Grocery Shopping"
+      },
+      {
+        "amount": 55.5,
+        "type": "CREDIT",
+        "transactionId": "11223344-aabb-ccdd-eeff-998877665544",
+        "transactionDateTime": "2025-01-16T11:25:00Z",
+        "description": "Refund for Item X",
+        "status": "SUCCESSFUL",
+        "transactionName": "Refund from Retailer"
+      },
+      {
+        "amount": 100.0,
+        "type": "DEBIT",
+        "transactionId": "22334455-bbcc-ddff-ee44-776655443322",
+        "transactionDateTime": "2025-01-16T11:00:00Z",
+        "description": "Payment for Groceries",
+        "status": "FAIL",
+        "transactionName": "Supermarket Purchase"
+      }
+    ]
+  },
+  {
+    "date": "2025-01-13",
+    "transactions": [
+      {
+        "amount": 499.99,
+        "type": "CREDIT",
+        "transactionId": "33445566-ccdd-ffbb-1122-998877665533",
+        "transactionDateTime": "2025-01-13T23:15:00Z",
+        "description": "Monthly Subscription Refund",
+        "status": "SUCCESSFUL",
+        "transactionName": "Streaming Service Refund"
+      },
+      {
+        "amount": 75.25,
+        "type": "DEBIT",
+        "transactionId": "44556677-aaff-2233-4455-556677889900",
+        "transactionDateTime": "2025-01-13T18:00:00Z",
+        "description": "Dining Out",
+        "status": "PENDING",
+        "transactionName": "Restaurant Bill"
+      }
+    ]
+  },
+  {
+    "date": "2025-01-11",
+    "transactions": [
+      {
+        "amount": 250.0,
+        "type": "CREDIT",
+        "transactionId": "55667788-bb22-33cc-44dd-559988774433",
+        "transactionDateTime": "2025-01-11T19:10:00Z",
+        "description": "Bonus Payment",
+        "status": "SUCCESSFUL",
+        "transactionName": "Year-end Bonus"
+      },
+      {
+        "amount": 120.0,
+        "type": "DEBIT",
+        "transactionId": "66778899-ccddee-1122-33ff-444466667799",
+        "transactionDateTime": "2025-01-10T13:30:00Z",
+        "description": "Utility Bill Payment",
+        "status": "SUCCESSFUL",
+        "transactionName": "Electricity Bill"
+      }
+    ]
+  },
+  {
+    "date": "2025-01-10",
+    "transactions": [
+      {
+        "amount": 600.5,
+        "type": "CREDIT",
+        "transactionId": "77889900-ee11-22ff-3344-556677889911",
+        "transactionDateTime": "2025-01-10T20:00:00Z",
+        "description": "Salary Payment",
+        "status": "SUCCESSFUL",
+        "transactionName": "Direct Deposit"
+      },
+      {
+        "amount": 250.0,
+        "type": "DEBIT",
+        "transactionId": "88990011-aacc-ddbb-2233-445566778800",
+        "transactionDateTime": "2025-01-10T17:45:00Z",
+        "description": "Rent Payment",
+        "status": "PENDING",
+        "transactionName": "Monthly Rent"
+      },
+      {
+        "amount": 150.5,
+        "type": "CREDIT",
+        "transactionId": "99001122-bbcc-22ff-33aa-554433667711",
+        "transactionDateTime": "2025-01-10T09:20:00Z",
+        "description": "Refund from Store",
+        "status": "SUCCESSFUL",
+        "transactionName": "Store Refund"
+      }
+    ]
+  },
+  {
+    "date": "2025-01-06",
+    "transactions": [
+      {
+        "amount": 30.0,
+        "type": "DEBIT",
+        "transactionId": "10111213-aa33-bb44-5566-779900112233",
+        "transactionDateTime": "2025-01-06T20:30:00Z",
+        "description": "ATM Withdrawal",
+        "status": "SUCCESSFUL",
+        "transactionName": "Cash Withdrawal"
+      },
+      {
+        "amount": 200.0,
+        "type": "CREDIT",
+        "transactionId": "11121314-bb44-cc55-dd66-889900223344",
+        "transactionDateTime": "2025-01-06T16:45:00Z",
+        "description": "Refund from Service X",
+        "status": "SUCCESSFUL",
+        "transactionName": "Service Refund"
+      },
+      {
+        "amount": 125.0,
+        "type": "DEBIT",
+        "transactionId": "12131415-cc55-dd66-77ff-990011334455",
+        "transactionDateTime": "2025-01-06T13:00:00Z",
+        "description": "Payment for Online Shopping",
+        "status": "SUCCESSFUL",
+        "transactionName": "E-commerce Purchase"
+      }
+    ]
+  },
+  {
+    "date": "2025-01-03",
+    "transactions": [
+      {
+        "amount": 350.75,
+        "type": "CREDIT",
+        "transactionId": "13141516-dd66-ee77-99ff-001122445577",
+        "transactionDateTime": "2025-01-03T11:40:00Z",
+        "description": "Refund for Overpayment",
+        "status": "SUCCESSFUL",
+        "transactionName": "Overpayment Refund"
+      }
+    ]
+  },
+  {
+    "date": "2025-01-02",
+    "transactions": [
+      {
+        "amount": 80.0,
+        "type": "DEBIT",
+        "transactionId": "14151617-ee77-ff88-0011-223344556688",
+        "transactionDateTime": "2025-01-02T17:10:00Z",
+        "description": "Fuel Purchase",
+        "status": "PENDING",
+        "transactionName": "Gas Station"
+      }
+    ]
+  },
+  {
+    "date": "2025-01-01",
+    "transactions": [
+      {
+        "amount": 500.0,
+        "type": "CREDIT",
+        "transactionId": "15161718-ff88-0011-2233-445566677799",
+        "transactionDateTime": "2025-01-01T19:00:00Z",
+        "description": "Payment from Client",
+        "status": "SUCCESSFUL",
+        "transactionName": "Client Payment"
+      },
+      {
+        "amount": 75.0,
+        "type": "DEBIT",
+        "transactionId": "16171819-0011-2233-4455-556677889900",
+        "transactionDateTime": "2025-01-01T14:00:00Z",
+        "description": "Movie Tickets",
+        "status": "SUCCESSFUL",
+        "transactionName": "Cinema Visit"
+      },
+      {
+        "amount": 125.0,
+        "type": "CREDIT",
+        "transactionId": "17181920-2233-4455-6677-889900112233",
+        "transactionDateTime": "2024-12-30T12:30:00Z",
+        "description": "Refund for Service Y",
+        "status": "SUCCESSFUL",
+        "transactionName": "Service Y Refund"
+      }
+    ]
+  }
+]
