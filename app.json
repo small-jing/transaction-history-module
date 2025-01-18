@@ -9,7 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": false,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "transaction-history-module",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "This app requires Face ID for secure authentication."
+      }
     },
     "android": {
       "adaptiveIcon": {

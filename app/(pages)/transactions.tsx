@@ -33,6 +33,7 @@ const TransactionsScreen = () => {
       setTransactionDataState(newData); // Update state with latest transaction lists
     } catch (error) {
       console.error("Error fetching data:", error);
+      // TODO: should do a Toast message and shows the error
     }
   };
 
