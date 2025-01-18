@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { Dimensions } from "react-native";
 import userData from "@/assets/data/user.json";
 import { LinearGradient } from "expo-linear-gradient";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { Text, Image, StyleSheet, View } from "react-native";
 import ParallaxScrollView from "@/components/ParallaxScrollView";
 import ViewTransactionButton from "@/components/ViewTransactionButton";
@@ -9,6 +11,12 @@ const windowWidth = Dimensions.get("window").width;
 const windowHeight = Dimensions.get("window").height;
 
 export default function HomeScreen() {
+  const [visible, setVisible] = useState(false);
+
+  const handleVisibility = () => {
+    setVisible(!visible);
+  };
+
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: "transparent", dark: "transparent" }}
@@ -35,7 +43,17 @@ export default function HomeScreen() {
       <View style={styles.main}>
         <View style={styles.balanceView}>
           <Text style={styles.title}>Your Balance</Text>
-          <Text style={styles.amount}>RM{userData.balance}</Text>
+          <View style={styles.amountView}>
+            <Text style={styles.amount}>
+              {visible ? `RM${userData.balance.toFixed(2)}` : "RM****.**"}
+            </Text>
+            <MaterialCommunityIcons
+              onPress={handleVisibility}
+              name={visible ? "eye" : "eye-off"}
+              size={28}
+              color="white"
+            />
+          </View>
         </View>
         <ViewTransactionButton />
       </View>
@@ -72,6 +90,11 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: "bold",
     color: "#F5F5F5",
+  },
+  amountView: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 10,
   },
   amount: {
     fontSize: 30,
